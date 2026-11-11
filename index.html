@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Za mala podjetja d.o.o. v Sloveniji: knjige prejetih in izdanih računov, mesečni ali četrtletni obračun DDV-O in datoteka XML, pripravljena za oddajo v eDavke.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">DDV Preprosto</a></div>
-  <nav class="top"><a href="#kaj" data-ev="click_nav_kaj">Kaj dobite</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Začetek</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">DDV Preprosto</a>
+  <nav><a href="#kaj" data-ev="click_nav_kaj">Kaj dobite</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#primer" data-ev="click_nav_primer">Primer</a><a href="#start" data-ev="click_nav_start">Začetek</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Obračun DDV-O pripravljen iz vaših računov — z datoteko XML za eDavke</h1>
-    <p class="sub">Za mala podjetja d.o.o.: naložite izdane in prejete račune obdobja, dobite knjige DDV, obračun DDV-O in datoteko XML, ki jo oddate v eDavke.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">To potrebujem</a>
-    <p class="cta-note">Zgodnji dostop · Na tej strani še ne sprejemamo plačil</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Za mala podjetja</p>
+      <h1 class="rise" style="--i:1">Obračun DDV-O pripravljen iz vaših računov&nbsp;<span class="soft">— z datoteko XML za eDavke</span></h1>
+      <p class="rise" style="--i:2">Za mala podjetja d.o.o.: naložite izdane in prejete račune obdobja, dobite knjige DDV, obračun DDV-O in datoteko XML, ki jo oddate v eDavke.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">To potrebujem</a>
+      <p class="meta rise" style="--i:4">Zgodnji dostop · Na tej strani še ne sprejemamo plačil</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" font-weight="600" fill="#0a1524">Obračun DDV-O</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="44" height="44" rx="8" fill="#12397a" /><text x="190" y="282" font-size="32" fill="#0a1524">Izdani in prejeti</text><rect x="120" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="402" font-size="32" fill="#0a1524">Knjige DDV</text><rect x="120" y="490" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="190" y="522" font-size="32" fill="#0a1524">Datoteka XML</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="320" font-size="34" font-weight="600" fill="#0a1524">eDavke</text><rect x="730" y="370" width="280" height="28" rx="8" fill="#ffffff" /><rect x="730" y="430" width="200" height="28" rx="8" fill="#b9c3d2" /><rect x="730" y="490" width="300" height="28" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="730" y="550" width="160" height="28" rx="8" fill="#dde2ea" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Za</dt><dd>Mala podjetja</dd></div>
+      <div><dt>Obračun</dt><dd>Obračun DDV-O</dd></div>
+      <div><dt>Kako</dt><dd>Naložite izdane in prejete</dd></div>
+      <div><dt>Dostop</dt><dd>Zgodnji dostop</dd></div>
+    </dl>
+  </section>
 
   <section id="kaj" data-view="features_view">
-    <h2>Kaj dobite</h2>
-    <div class="grid">
-      <div class="card"><b>Računi obdobja</b><span>Izdani in prejeti računi, razvrščeni po obdobju in stopnji.</span><br><a class="btn" href="price.html" data-ev="feature_racuni">To potrebujem</a></div>
-      <div class="card"><b>Knjige DDV</b><span>Knjiga izdanih in knjiga prejetih računov.</span><br><a class="btn" href="price.html" data-ev="feature_knjige">To potrebujem</a></div>
-      <div class="card"><b>Obračun DDV-O</b><span>Mesečni ali četrtletni obračun iz knjig.</span><br><a class="btn" href="price.html" data-ev="feature_obracun">To potrebujem</a></div>
-      <div class="card"><b>Datoteka XML</b><span>Pripravljena za oddajo v eDavke.</span><br><a class="btn" href="price.html" data-ev="feature_xml">To potrebujem</a></div>
+    <div class="stack"><h2>Kaj dobite</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="34" font-weight="600" fill="#0a1524">Računi obdobja</text><text x="100" y="170" font-size="30" fill="#566174">Izdani in prejeti</text><rect x="120" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="220" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="320" width="110" height="72" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="320" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="420" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Računi obdobja</h3><p>Izdani in prejeti računi, razvrščeni po obdobju in stopnji.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_racuni">To potrebujem</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Knjige DDV</text><text x="100" y="185" font-size="30" fill="#566174">Knjiga izdanih</text><rect x="100" y="250" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="262" width="340" height="24" rx="8" fill="#dde2ea" /><polyline points="112,276 122,286 138,266" fill="none" stroke="#12397a" stroke-width="4" /><rect x="100" y="340" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="352" width="270" height="24" rx="8" fill="#dde2ea" /><polyline points="112,366 122,376 138,356" fill="none" stroke="#12397a" stroke-width="4" /><rect x="100" y="430" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="170" y="442" width="200" height="24" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Knjige DDV</h3><p>Knjiga izdanih in knjiga prejetih računov.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_knjige">To potrebujem</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Obračun DDV-O</text><text x="100" y="185" font-size="30" fill="#566174">Mesečni ali četrtletni</text><rect x="100" y="250" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="100" y="300" width="260" height="22" rx="8" fill="#b9c3d2" /><rect x="100" y="350" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="100" y="400" width="200" height="22" rx="8" fill="#dfe8f7" /><circle cx="560" cy="400" r="52" fill="#dfe8f7" /><polyline points="536,400 552,418 588,376" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Obračun DDV-O</h3><p>Mesečni ali četrtletni obračun iz knjig.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_obracun">To potrebujem</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="130" font-size="34" font-weight="600" fill="#0a1524">Datoteka XML</text><text x="100" y="185" font-size="30" fill="#566174">oddajo v eDavke</text><line x1="120" y1="480" x2="660" y2="480" stroke="#dde2ea" stroke-width="3" /><rect x="160" y="320" width="70" height="160" fill="#dfe8f7" /><rect x="280" y="250" width="70" height="230" fill="#12397a" /><rect x="400" y="360" width="70" height="120" fill="#b9c3d2" /><rect x="520" y="290" width="70" height="190" fill="#dde2ea" /></svg></div>
+        <h3>Datoteka XML</h3><p>Pripravljena za oddajo v eDavke.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_xml">To potrebujem</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Primer (izmišljeni podatki)</h2>
-    <p class="fine">Storitveno podjetje d.o.o. iz Ljubljane, 70 izdanih in 45 prejetih računov v mesecu. Računi naloženi, pri 2 prejetih računih manjka davčna številka dobavitelja. Po dopolnitvi so knjige DDV in obračun DDV-O pripravljeni, datoteka XML je pripravljena za eDavke.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Izberite paket</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Primer</h2>
+      <p>Storitveno podjetje d.o.o. iz Ljubljane, 70 izdanih in 45 prejetih računov v mesecu. Računi naloženi, pri 2 prejetih računih manjka davčna številka dobavitelja. Po dopolnitvi so knjige DDV in obračun DDV-O pripravljeni, datoteka XML je pripravljena za eDavke.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Izberite paket</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">Računi naloženi</text><text x="600" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">knjige DDV</text><text x="960" y="220" font-size="30" font-weight="600" text-anchor="middle" fill="#0a1524">datoteka XML</text><rect x="120" y="300" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">pripravljena za eDavke</text><rect x="170" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="270" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="370" y="450" width="64" height="64" rx="10" fill="#12397a" /><rect x="470" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="570" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><rect x="670" y="450" width="64" height="64" rx="10" fill="#dfe8f7" /><text x="170" y="600" font-size="32" fill="#566174">davčna številka</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kako deluje</h2>
-    <p>Podjetje d.o.o., ki je zavezanec za DDV, vsak mesec ali četrtletje pripravi obračun DDV-O in ga odda v eDavke. eDavki obračun sprejmejo, ne pripravijo pa ga iz vaših računov. Programi za knjigovodstvo ponujajo ta modul v najemu. DDV Preprosto je enostavna storitev samo za ta del dela.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kako deluje</h2></div>
+    <div class="stack">
+      <p>Podjetje d.o.o., ki je zavezanec za DDV, vsak mesec ali četrtletje pripravi obračun DDV-O in ga odda v eDavke. eDavki obračun sprejmejo, ne pripravijo pa ga iz vaših računov. Programi za knjigovodstvo ponujajo ta modul v najemu. DDV Preprosto je enostavna storitev samo za ta del dela.</p>
     <p>Izdane in prejete račune obdobja naložite kot datoteke ali fotografije. Storitev jih razvrsti po obdobju, vrsti prometa in stopnji DDV ter prikaže, kateri podatki manjkajo.</p>
     <p>Iz računov se pripravita knjiga izdanih in knjiga prejetih računov. Vsak račun je preverjen: davčna številka, datum, osnova in davek. Računi z nepopolnimi podatki so označeni, da jih dopolnite pred obračunom.</p>
     <p>Obračun DDV-O se pripravi iz knjig za mesečno ali četrtletno obdobje, z zneskom za plačilo ali vračilo. Datoteka XML je pripravljena za oddajo v eDavke; oddate jo sami ali vaš računovodja.</p>
@@ -119,31 +153,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Računi v tujih valutah se preračunajo v evre po tečaju na dan računa, tečaj in datum pa sta vidna pri vsakem računu. Pri računih z več stopnjami DDV se vsaka stopnja prikaže posebej, tako da so zneski v obračunu jasni.</p>
     <p>Za računovodje, ki vodijo več podjetij, je na voljo skupen pogled na vse stranke: katera obdobja so pripravljena, katera oddana in kje še manjkajo računi. Vsaka stranka ima svoje nastavitve obdobja in svoje opomnike, računovodja pa vse vidi na enem zaslonu.</p>
     <p>DDV Preprosto ni Finančna uprava in ne daje davčnih nasvetov. Podjetje odgovarja za oddani obračun.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pogosta vprašanja</h2>
-    <h3>Za koga je storitev?</h3>
-    <p>Za mala podjetja d.o.o. in samostojne podjetnike, zavezance za DDV.</p>
-    <h3>Kaj dobim?</h3>
-    <p>Knjige DDV, obračun DDV-O in datoteko XML za eDavke.</p>
-    <h3>Kdo odda obračun?</h3>
-    <p>Podjetje ali njegov računovodja, v eDavkih.</p>
-    <h3>Ali deluje za četrtletno obdobje?</h3>
-    <p>Da, za mesečno in četrtletno obdobje.</p>
-    <h3>Ali lahko storitev že uporabljam?</h3>
-    <p>Še ne. Storitev je v pripravi in preverjamo, ali jo podjetja potrebujejo.</p>
+    <div class="stack"><h2>Pogosta vprašanja</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Za koga je storitev?</h3><p>Za mala podjetja d.o.o. in samostojne podjetnike, zavezance za DDV.</p></div>
+      <div class="split flip"><h3>Kaj dobim?</h3><p>Knjige DDV, obračun DDV-O in datoteko XML za eDavke.</p></div>
+      <div class="split flip"><h3>Kdo odda obračun?</h3><p>Podjetje ali njegov računovodja, v eDavkih.</p></div>
+      <div class="split flip"><h3>Ali deluje za četrtletno obdobje?</h3><p>Da, za mesečno in četrtletno obdobje.</p></div>
+      <div class="split flip"><h3>Ali lahko storitev že uporabljam?</h3><p>Še ne. Storitev je v pripravi in preverjamo, ali jo podjetja potrebujejo.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Začnite s tekočim obdobjem</h2>
-    <p><label>Računov na mesec<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— izberite —</option><option>Do 30</option><option>31–100</option><option>101–300</option><option>Več kot 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Začni</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Začnite s tekočim obdobjem</h2>
+    </div>
+    <div class="tile stack">
+      <label>Računov na mesec<select data-ev-focus="form_start"><option value="">— izberite —</option><option>Do 30</option><option>31–100</option><option>101–300</option><option>Več kot 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Začni</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>DDV Preprosto</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Zasebnost</a></p>
-  <p class="muted">Ni Finančna uprava in ne daje davčnih nasvetov. Podjetje odgovarja za oddani obračun.</p>
+  <p>Ni Finančna uprava in ne daje davčnih nasvetov. Podjetje odgovarja za oddani obračun.</p>
 </div></footer>
 
 </body>
